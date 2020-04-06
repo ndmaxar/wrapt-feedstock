@@ -13,7 +13,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  build: 
     - {{ compiler('c') }}
   host:
     - python
